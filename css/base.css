@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 80%;
+}
+
+body {
+  font-size: 1.4rem;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.row {
+  margin-top: 40px;
+}
+
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.col-3 {
+  display: flexbox;
+  float: left;
+}
+
+.col-21 {
+  float: left;
+  width: 50%;
+}
+
+.container {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.img-fluid {
+  width: 100%;
+}
